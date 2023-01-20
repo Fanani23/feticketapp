@@ -1,0 +1,14 @@
+.customSplash {
+  width: 100%;
+  height: 100vh;
+  background-color: #2395ff;
+}
+.splashPos {
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 32%;
+  right: auto;
+  top: 13%;
+  bottom: auto;
+}

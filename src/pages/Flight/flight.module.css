@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.customContainer {
+  width: 100%;
+  height: auto;
+  font-family: "Poppins", sans-serif;
+}
+.customNav {
+  width: 100%;
+  height: 128px;
+  background-color: #ffffff;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.customBasis {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: #f5f6fa;
+}
+.basisLeft {
+  width: 30%;
+}
+.blFilter {
+  width: 80%;
+  margin: 20px 8% 20px 8%;
+}
+.blfHead {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.blfhFilter {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+}
+.blfhReset {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2395ff;
+  border: transparent;
+  background-color: transparent;
+  margin-top: -8px;
+}
+.blfBody {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+.blfBodyValue {
+  margin: 0 8% auto 8%;
+  padding: 5% 0 5% 0;
+}
+.basisRight {
+  width: 70%;
+}
+.brSelect {
+  width: 125%;
+  margin: 20px 20px 20px -110px;
+}
+.brfHead {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.brfhSelect {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+}
+.brfhSortby {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  border: transparent;
+  background-color: transparent;
+  margin-top: -8px;
+}
+.whSortby {
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+}
+.brfBody {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+.brfBodyValue {
+  margin: 0 20px auto 20px;
+  padding: 20px 0 20px 0;
+}
+.flightName {
+  font-size: 16px;
+  font-weight: 500;
+  color: #595959;
+}
+.codeFlight {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+}
+.departureTime {
+  font-size: 12px;
+  font-weight: 400;
+  color: #6b6b6b;
+  margin-top: -15px;
+  margin-left: 5px;
+}
+.arrivalTime {
+  font-size: 12px;
+  font-weight: 400;
+  color: #6b6b6b;
+  margin-top: -15px;
+  margin-left: 5px;
+}
+.spaceTime {
+  font-size: 16px;
+  font-weight: 400;
+  color: #595959;
+}
+.flightPrice {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2395ff;
+}
+.flightPax {
+  font-size: 14px;
+  font-weight: 500;
+  color: #979797;
+}
+.btnFlight {
+  width: 150px;
+  height: 50px;
+  margin-top: -8px;
+  border: transparent;
+  border-radius: 10px;
+  background-color: #2395ff;
+  color: #ffffff;
+}
+.viewDetail {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2395ff;
+  margin-top: -15px;
+  margin-bottom: 0;
+}
+.brFlight {
+  width: 80%;
+  margin: 20px 8% auto 8%;
+}
+.navLogo {
+  position: relative;
+  margin: 45px 0 0 60px;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.navLogo img {
+  width: auto;
+  height: 35px;
+}
+.navLogo p {
+  font-size: 24px;
+  font-weight: 600;
+  color: #414141;
+}
+.navSearch {
+  width: 20%;
+  margin: 44px auto auto auto;
+}
+.navSearch input {
+  height: 40px;
+  background-color: #f5f5f5;
+  border: transparent;
+  border-radius: 10px;
+  padding: 3px 10px 3px 10px;
+}
+.navRoute {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  margin: 50px auto auto auto;
+  gap: 20px;
+}
+.navRoute div {
+  font-size: 16px;
+  font-weight: 700;
+  color: #414141;
+}
+.navProfile {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  margin: 50px 60px auto auto;
+  gap: 40px;
+  justify-content: end;
+}
+.navProf {
+  margin-top: -10px;
+}
+.basisHead {
+  width: 100%;
+  height: 150px;
+  z-index: 1;
+}
+.basisHeaded {
+  width: 100%;
+}
+.basisHead2 {
+  width: 100%;
+  height: 150px;
+  margin-top: -150px;
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
+}
+.basisHeadLeft {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.basisHeadCenter {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 20px;
+  gap: 10px;
+}
+.bhcTop {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.bhcTopLeft {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 10px;
+}
+.whFlightWhite {
+  width: 40px;
+  height: 40px;
+  margin: 70px 0 0 30px;
+}
+.bhcTopCenter {
+  display: flex;
+  justify-content: start;
+  margin: 50px 15px 0 -15px;
+  width: 20%;
+}
+.bhcRlArrow {
+  width: 20px;
+  height: 20px;
+}
+.bhcFrom {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.bhcOrigin {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.bhcTopRight {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 10px;
+}
+.bhcBottom {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.bhcInfo {
+  font-size: 12px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.bhcInfoSpace {
+  margin-top: -3px;
+}
+.basisHeadRight {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+.bhrButton {
+  margin: 80px 0 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.basisPhoto {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
